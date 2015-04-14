@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Knife",
+    "category": 1,
+    "price": 10,
+    "stock": 10000,
+    "country": "MEX"
+  },
+  {
+    "name": "Spoon",
+    "category": 1,
+    "price": 15,
+    "stock": 3000,
+    "country": "GBR"
+  },
+  {
+    "name": "Baseball",
+    "category": 2,
+    "price": 18,
+    "stock": 4000,
+    "country": "USA"
+  },
+  {
+    "name": "iPhone",
+    "category": 3,
+    "price": 299,
+    "stock": 0,
+    "country": "DEU"
+  }
+]

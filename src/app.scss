@@ -1,0 +1,48 @@
+$light-gray: #f5f5f5;
+$medium-gray: #eeeeee;
+$dark-gray: #333333;
+
+body {
+  padding-top: 70px;
+  padding-bottom: 40px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 10px 0;
+  border-top: 1px solid $medium-gray;
+  background-color: $light-gray;
+}
+  
+th {
+  color: $dark-gray;
+  background: $medium-gray;
+  border-bottom: none !important;
+}
+
+.Sporting-Goods {
+  color: #31708f;
+  background: #D9EDF7;
+}
+
+.Electronics {
+  color: #3c763d;
+  background: #dff0d8;
+}
+  
+.Kitchen {
+  color: #8a6d3b;
+  background: #fcf8e3;
+}
+
+.footer a {
+  &:after {
+    content: ', ';
+  }
+
+  &:last-child:after {
+    content: '';
+  }
+}
